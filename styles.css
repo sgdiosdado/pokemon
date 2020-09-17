@@ -1,0 +1,9 @@
+.field::after {
+  content: "Please don't leave this blank";
+  color: tomato;
+  font-size: 0.75rem;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/ed-grid@3.0.0/src/css/ed-grid.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div id="alert" class="mt-4 s-to-center alert alert-warning hide" role="alert"></div>
+    <main class="ed-grid s-to-center s-py-2">
+      <h1>Pokemon finder</h1>
+      <div id="field" class="s-mb-1">
+        <div class="input-group">
+          <input
+            id="search-bar"
+            type="text"
+            class="form-control"
+            placeholder="Pokemon id or name"
+          />
+          <div class="input-group-append">
+            <button
+              id="search"
+              type="button"
+              class="btn btn-primary">Catch 'em all</button>
+          </div>
+        </div>
+      </div>
+      <div id="grid" class="ed-grid s-grid-1 m-grid-2 l-grid-4 rows-gap">
+
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
